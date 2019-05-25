@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /jwt-api
+
+management:
+  endpoints:
+    web:
+      base-path: /
