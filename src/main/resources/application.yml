@@ -1,7 +1,7 @@
 server:
   port: 8080
   servlet:
-    context-path: /jwt-api
+    context-path: /api
 
 management:
   endpoints:

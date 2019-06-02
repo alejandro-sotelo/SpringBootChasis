@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld.domain.exception;
+package co.com.company.domain.exception;
 
 public class DomainException extends RuntimeException {
 

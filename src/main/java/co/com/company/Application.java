@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld;
+package co.com.company;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

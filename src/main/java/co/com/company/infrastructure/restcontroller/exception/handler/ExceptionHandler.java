@@ -1,6 +1,6 @@
-package co.com.astor.jwt.helloworld.infrastructure.restcontroller.exception.handler;
+package co.com.company.infrastructure.restcontroller.exception.handler;
 
-import co.com.astor.jwt.helloworld.domain.exception.DomainException;
+import co.com.company.domain.exception.DomainException;
 import org.pmw.tinylog.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

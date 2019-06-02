@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld.infrastructure.restcontroller.exception.handler;
+package co.com.company.infrastructure.restcontroller.exception.handler;
 
 public class ServiceResponse {
     private int code;

@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld.infrastructure.apifeatures;
+package co.com.company.infrastructure.apifeatures;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
