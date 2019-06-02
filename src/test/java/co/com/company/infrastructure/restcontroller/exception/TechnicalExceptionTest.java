@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld.infrastructure.restcontroller.exception;
+package co.com.company.infrastructure.restcontroller.exception;
 
 import org.junit.Assert;
 import org.junit.Test;

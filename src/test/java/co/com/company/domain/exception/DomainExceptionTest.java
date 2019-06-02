@@ -1,4 +1,4 @@
-package co.com.astor.jwt.helloworld.domain.exception;
+package co.com.company.domain.exception;
 
 import org.junit.Assert;
 import org.junit.Test;
