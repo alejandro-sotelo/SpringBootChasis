@@ -1,11 +1,11 @@
 package co.com.company.infrastructure.restcontroller.exception.handler;
 
 import co.com.company.domain.exception.DomainException;
-import org.pmw.tinylog.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+import org.tinylog.Logger;
 
 import java.util.concurrent.ConcurrentHashMap;
 

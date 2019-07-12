@@ -12,3 +12,9 @@ management:
       base-path: /features
       exposure:
         include: "health,info,metrics,logfile"
+
+logging:
+  file: log/app_log_0.log
+  path: .
+  level:
+    root: OFF

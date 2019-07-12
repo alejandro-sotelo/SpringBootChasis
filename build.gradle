@@ -25,6 +25,7 @@ repositories {
 
 configurations {
     compile.exclude module: 'spring-boot-starter-tomcat'
+    compile.exclude module: 'spring-boot-starter-logging'
 }
 
 dependencies {
@@ -32,8 +33,10 @@ dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-undertow'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
-    //Logs
-    implementation group: 'org.tinylog', name: 'tinylog', version: "$vTinyLog"
+    //TinyLog
+    implementation group: 'org.tinylog', name: 'tinylog-api', version: "$vTinyLog"
+    implementation group: 'org.tinylog', name: 'tinylog-impl', version: "$vTinyLog"
+    implementation group: 'org.tinylog', name: 'slf4j-tinylog', version: "$vTinyLog"
     //Test
     testImplementation group: 'junit', name: 'junit', version: "$vJUnit"
 }
