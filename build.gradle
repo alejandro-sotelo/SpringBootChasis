@@ -35,7 +35,7 @@ dependencies {
     //Logs
     implementation group: 'org.tinylog', name: 'tinylog', version: "$vTinyLog"
     //Test
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: "$vJUnit"
 }
 
 bootJar {
