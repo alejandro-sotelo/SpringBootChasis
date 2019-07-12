@@ -9,6 +9,9 @@ import org.tinylog.Logger;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        Logger.warn("Hello World!");
+        Logger.info("Hello World INFO Log Test!");
+        Logger.warn("Hello World WARNING Log Test!");
+        Logger.error("Hello World ERROR Log Test!");
+        Logger.tag("EXPOSE_WS").error("Hello World TAG ERROR TEST Log Test!");
     }
 }

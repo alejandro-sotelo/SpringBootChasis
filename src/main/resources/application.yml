@@ -14,7 +14,7 @@ management:
         include: "health,info,metrics,logfile"
 
 logging:
-  file: log/app_log_0.log
+  file: log/app_log_error.log
   path: .
   level:
     root: OFF
