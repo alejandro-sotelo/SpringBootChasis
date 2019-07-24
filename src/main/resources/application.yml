@@ -1,5 +1,8 @@
 server:
   port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
   servlet:
     context-path: /api
 
@@ -18,3 +21,13 @@ logging:
   path: .
   level:
     root: OFF
+---
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: laboratory
+---
+spring:
+  profiles: production
