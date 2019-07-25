@@ -143,7 +143,7 @@ Por convención para la codificación se hace uso de las guías de estilo defini
 
 ### Versionado
 
-El versionamiento se hace uso de [SemVer](https://semver.org/lang/es/).
+Para el versionamiento se hace uso de [SemVer](https://semver.org/lang/es/).
 
 ### Autores
 Al desarrollo de este proyecto han contribuido:
